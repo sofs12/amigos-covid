@@ -154,11 +154,11 @@ if voter_name != '?':
 
     st.header('Votações')
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
     next_covid = col1.selectbox('Quem é o próximo a vacilar?', ['?'] + players_still_in_game)
     patient_zero = col2.selectbox('Quem é que vamos mandar para a fogueira?', patient_zero_list)
 
-    enter_bet = col3.button('Enter')
+    enter_bet = st.button('Enter')
 
     if enter_bet:
 
