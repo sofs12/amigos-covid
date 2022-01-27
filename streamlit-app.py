@@ -51,7 +51,7 @@ infection_day = {'Sofia B': date(2022,1,16), 'Zio': date(2022,1,17),
     'Simão': date(2022,1,18), 'Diogo': date(2022,1,19), 'Luis': date(2022,1,16),
     'Daniel': date(2022,1,19), 'Chica': date(2022,1,17), 'Chico': date(2022,1,18),
     'Figueiredo': date(2022,1,17), 'Catarina': date(2022,1,20), 'Gac': date(2022,1,21),
-    'Filipa': date(2022,1,24), 'Marisa': date(2022,1,25), 'Sofia': date(2022,1,26)}
+    'Filipa': date(2022,1,24), 'Marisa': date(2022,1,25), 'Sofia F': date(2022,1,26)}
 
 infected_list = sorted(infection_day.keys())
 
